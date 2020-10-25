@@ -4,6 +4,8 @@ It allows Cornerstone LMS (CSOD) to connect via Basic Auth to create/update onli
 
 This is a sanitized repository without development commit history and without organization-specific keys and info.
 
+There is some additional information on [the Wiki](https://github.com/UVMHealth/vILT-CSOD-Microsoft-Connector/wiki)
+
 ## Azure Services Information and Dependencies
  - A service cloud account is used as a resource account for its mailbox. The mailbox's calendar acts as a repository for the online meetings. Username and password (if needed) are stored in the Azure Key Vault mentioned in this documentation.
  - App secrets (Client Secret, Basic Auth Username/Password) should be saved in Azure Key Vault. The app uses [Visual Studio's "Connected Services" to connect to Key Vault as if it were a secondary config provider](https://docs.microsoft.com/en-us/azure/key-vault/general/vs-key-vault-add-connected-service).
